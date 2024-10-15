@@ -1,0 +1,29 @@
+node_modules
+*.log
+.nuxt
+nuxt.d.ts
+.output
+.data
+.env
+package-lock.json
+framework
+dist
+.DS_Store
+
+# Yarn
+.yarn/cache
+.yarn/*state*
+
+# Local History
+.history
+
+# VSCode
+.vscode/
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
