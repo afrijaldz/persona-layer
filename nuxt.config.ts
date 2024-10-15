@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: false },
-  modules: ["@privyid/persona", "@privyid/persona-icon", "@nuxtjs/tailwindcss"],
+  modules: ["@privyid/persona", "@privyid/persona-icon", "@nuxtjs/tailwindcss", '@vueuse/nuxt'],
   alias: {
     interactjs: "interactjs",
     "@testing-library/user-event": "@testing-library/user-event",
