@@ -16,4 +16,12 @@ export default defineNuxtConfig({
   vite: {
     optimizeDeps: { include: ["scroll-into-view"] },
   },
+  imports: {
+    presets: [
+      {
+        from: '@privyid/persona/core',
+        imports: ['defineTable', 'defineAsyncAdapter']
+      }
+    ]
+  }
 });
