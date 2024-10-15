@@ -3240,7 +3240,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:11.1.0, @vueuse/core@npm:^11.1.0":
+"@vueuse/core@npm:^11.1.0":
   version: 11.1.0
   resolution: "@vueuse/core@npm:11.1.0"
   dependencies:
@@ -3273,21 +3273,6 @@ __metadata:
   version: 11.1.0
   resolution: "@vueuse/metadata@npm:11.1.0"
   checksum: 10/3bb0171a275845780678360a8e74591b52ad3a25aba61bee0e57924410918c343ccb94b9317a06e77c92e6e18a7d22ddf46ea51eea930fea6ca9b06053875522
-  languageName: node
-  linkType: hard
-
-"@vueuse/nuxt@npm:^11.1.0":
-  version: 11.1.0
-  resolution: "@vueuse/nuxt@npm:11.1.0"
-  dependencies:
-    "@nuxt/kit": "npm:^3.13.2"
-    "@vueuse/core": "npm:11.1.0"
-    "@vueuse/metadata": "npm:11.1.0"
-    local-pkg: "npm:^0.5.0"
-    vue-demi: "npm:>=0.14.10"
-  peerDependencies:
-    nuxt: ^3.0.0
-  checksum: 10/13fd7998bd5d6c64ab81bb17aa945e4d519f5392b3c361afdb252b34d6d43dd64d0f4584a711946dbaad531f12cd59fbab40868d9b1a828162f081ad2a82f810
   languageName: node
   linkType: hard
 
@@ -8386,7 +8371,6 @@ __metadata:
     "@privyid/persona-icon": "npm:^1.0.0-rc.12"
     "@privyid/tailwind-preset": "npm:^1.0.0-rc.12"
     "@vueuse/core": "npm:^11.1.0"
-    "@vueuse/nuxt": "npm:^11.1.0"
     eslint: "npm:^9.11.0"
     nuxt: "npm:^3.13.0"
     postcss-hexrgba: "npm:^2.1.0"
