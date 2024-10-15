@@ -1,73 +1,72 @@
-# Nuxt Layer Starter
+# Persona Layer
 
-Create Nuxt extendable layer with this GitHub template.
+Use persona design system without headache
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-pnpm install
-```
-
-## Working on your layer
-
-Your layer is at the root of this repository, it is exactly like a regular Nuxt project, except you can publish it on NPM.
-
-The `.playground` directory should help you on trying your layer during development.
-
-Running `pnpm dev` will prepare and boot `.playground` directory, which imports your layer itself.
-
-## Distributing your layer
-
-Your Nuxt layer is shaped exactly the same as any other Nuxt project, except you can publish it on NPM.
-
-To do so, you only have to check if `files` in `package.json` are valid, then run:
-
-```bash
-npm publish --access public
-```
-
-Once done, your users will only have to run:
-
-```bash
-npm install --save your-layer
+yarn add -D persona-layer
 ```
 
 Then add the dependency to their `extends` in `nuxt.config`:
 
 ```ts
 defineNuxtConfig({
-  extends: 'your-layer'
-})
+  extends: "persona-layer",
+});
 ```
 
-## Development Server
+# Persona Layer
 
-Start the development server on http://localhost:3000
+`Persona Layer` is a module designed to simplify the process of installing Persona Design System for your application.
+
+## Installation
+
+To install `Persona Layer`, run the following command:
 
 ```bash
-pnpm dev
+yarn add -D persona-layer
 ```
 
-## Production
+After installation, add the module to your `nuxt.config.ts`:
 
-Build the application for production:
-
-```bash
-pnpm build
+```typescript
+export default defineNuxtConfig({
+  modules: ["persona-layer"],
+});
 ```
 
-Or statically generate it with:
+## Contributing
 
-```bash
-pnpm generate
-```
+We welcome contributions to `Persona Layer`. If you’d like to contribute, please follow these steps:
 
-Locally preview production build:
+1. **Enable Corepack**: Ensure Corepack is enabled by running:
 
-```bash
-pnpm preview
-```
+   ```bash
+   corepack enable
+   ```
 
-Checkout the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+2. **Install Dependencies**: Install all necessary dependencies by running:
+
+   ```bash
+   yarn install
+   ```
+
+3. **Generate Type Stubs**: Run the following command to generate type stubs:
+
+   ```bash
+   yarn dev:prepare
+   ```
+
+4. **Start Development Mode**: Use the following command to start the playground in development mode:
+   ```bash
+   yarn dev
+   ```
+
+This will set up your environment to develop and test `Persona Layer`.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
