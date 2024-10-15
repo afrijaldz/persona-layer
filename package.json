@@ -3,7 +3,7 @@
   "name": "persona-layer",
   "description": "Persona design system layer",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Afrijal Dzuhri <ijuldz@gmail.com> (https://github.com/afrijaldz)",
   "repository": "afrijaldz/persona-layer",
   "main": "./nuxt.config.ts",
