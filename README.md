@@ -1,26 +1,6 @@
 # Persona Layer
 
-Use persona design system without headache
-
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-yarn add -D persona-layer
-```
-
-Then add the dependency to their `extends` in `nuxt.config`:
-
-```ts
-defineNuxtConfig({
-  extends: "persona-layer",
-});
-```
-
-# Persona Layer
-
-`Persona Layer` is a module designed to simplify the process of installing Persona Design System for your application.
+`Persona Layer` is a module designed to simplify the process of installing Persona Design System for your application without headache.
 
 ## Installation
 
