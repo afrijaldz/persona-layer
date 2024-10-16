@@ -16,6 +16,12 @@ export default defineNuxtConfig({
   vite: {
     optimizeDeps: { include: ["scroll-into-view"] },
   },
+  postcss: {
+    plugins: {
+      'postcss-hexrgba'       : {},
+      'postcss-lighten-darken': {},
+    },
+  },
   imports: {
     presets: [
       {
